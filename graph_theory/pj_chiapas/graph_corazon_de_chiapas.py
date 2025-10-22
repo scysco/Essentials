@@ -6,7 +6,7 @@ G = nx.Graph()
 
 # Defino los nodos (Vértices)
 # Uso abreviaturas para claridad en el gráfico
-nodes = {
+nodes_simple = {
     'BC': 'Balún Canán',
     'J': 'Jocotal',
     'PL': 'Piedra Larga',
@@ -14,7 +14,7 @@ nodes = {
     'AC': 'Agua Clara',
     'M': 'Montebello'
 }
-G.add_nodes_from(nodes.keys())
+G.add_nodes_from(nodes_simple.keys())
 
 # Defino las aristas (E) - Conexiones de doble sentido
 edges = [
@@ -28,23 +28,31 @@ edges = [
 ]
 G.add_edges_from(edges)
 
+# Calculo los grados
+degrees = dict(G.degree())
+
+# Etiquetas personalizadas
+custom_labels = {}
+for node, name in nodes_simple.items():
+    custom_labels[node] = f"{name}\n(Grado: {degrees[node]})"
+
 # Defino un layout
 pos = nx.kamada_kawai_layout(G)
 
 # Dibujo el grafo
-plt.figure(figsize=(10, 7))
+plt.figure(figsize=(12, 8))
 nx.draw(
     G,
     pos,
-    labels=nodes,  # Uso los nombres completos como etiquetas
+    labels=custom_labels,  
     with_labels=True,
     node_color='#ff6d00', 
-    node_size=2500,
-    font_size=6,
+    node_size=4500,
+    font_size=10,
     font_weight='bold',
     font_color='black',
     edge_color='gray',
     width=2
 )
-plt.title('Grafo de la Red "Corazón de Chiapas"')
+plt.title('Grafo de la Red "Corazón de Chiapas"', fontsize=16)
 plt.savefig("grafo_corazon_chiapas.png", bbox_inches='tight')
