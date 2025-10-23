@@ -3,7 +3,6 @@
 Este proyecto modela el flujo de trabajo de un sprint de desarrollo ágil (Scrum) como un **Grafo Dirigido (DiGraph)**, basado en un caso de estudio de la materia Matemáticas Discretas.
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/scysco/Essentials/blob/main/graph_theory/pj_sprint/pj_sprint.ipynb)
-_(Nota: El enlace de Colab funcionará una vez que el archivo `.ipynb` sea creado y subido a esta carpeta)_
 
 ---
 
@@ -27,8 +26,8 @@ El objetivo es modelar este flujo, calcular los **grados de entrada (in-degree)*
 
 Se utiliza `NetworkX` para crear un `DiGraph`. El script `graph_sprint.py` implementa dos visualizaciones:
 
-1.  **Grafo Original:** Modela el flujo de trabajo descrito en el caso de estudio.
-2.  **Grafo Modificado:** Simula un cambio en el proceso, añadiendo una nueva fase de **Monitoreo (`M`)** y una nueva transición de **Retrospectiva (`R`)** de vuelta a **Planificación (`P`)**.
+1. **Grafo Original:** Modela el flujo de trabajo descrito en el caso de estudio.
+2. **Grafo Modificado:** Simula un cambio en el proceso, añadiendo una nueva fase de **Monitoreo (`M`)** y una nueva transición de **Retrospectiva (`R`)** de vuelta a **Planificación (`P`)**.
 
 En ambas visualizaciones, las etiquetas de los nodos se personalizan para mostrar:
 
@@ -63,15 +62,15 @@ _(Con el nodo "M" (Monitoreo) y la arista R -> P)_
 
 ## 🚀 Cómo Ejecutar Localmente
 
-1.  **Clonar el repositorio (o esta carpeta).**
+1. **Clonar el repositorio (o esta carpeta).**
 
-2.  **Crear un entorno virtual:**
+2. **Crear un entorno virtual:**
 
     ```bash
     virtualenv .venv
     ```
 
-3.  **Activar el entorno:**
+3. **Activar el entorno:**
     _En Nushell (tu shell):_
 
     ```nu
@@ -84,15 +83,17 @@ _(Con el nodo "M" (Monitoreo) y la arista R -> P)_
     source .venv/bin/activate
     ```
 
-4.  **Instalar dependencias:**
+4. **Instalar dependencias:**
     _(Este proyecto no requiere `scipy`)_
 
     ```bash
     pip install networkx matplotlib
     ```
 
-5.  **Ejecutar el script:**
+5. **Ejecutar el script:**
+
     ```bash
     python graph_sprint.py
     ```
+
     Esto generará los dos archivos `.png` en la misma carpeta.
