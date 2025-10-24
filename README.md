@@ -12,11 +12,12 @@ Este repositorio es una colección curada de proyectos, ejercicios y notas desar
 
 Aquí se enlistan los proyectos contenidos en este repositorio.
 
-| Proyecto                               | Descripción                                                                                                                      | Enlace                                    |
-| :------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------- | :---------------------------------------- |
-| 🗺️ **Grafos: Corazón de Chiapas**      | Modelado de una red de distribución logística (Grafo No Dirigido) para una cooperativa en Chiapas, usando NetworkX y Matplotlib. | [Ver Proyecto](./graph_theory/pj_chiapas) |
-| 🏃 **Grafos: Flujo de Sprint (Scrum)** | Modelado de un flujo de trabajo ágil (Grafo Dirigido) para el desarrollo de una API, calculando grados de entrada/salida.        | [Ver Proyecto](./graph_theory/pj_sprint)  |
-| _(Próximos proyectos...)_              | _(...)_                                                                                                                          | _(...)_                                   |
+| Proyecto                                  | Descripción                                                                                                                       | Enlace                                           |
+| :---------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------- |
+| 🗺️ **Grafos: Corazón de Chiapas**         | Modelado de una red de distribución logística (Grafo No Dirigido) para una cooperativa en Chiapas, usando NetworkX y Matplotlib.  | [Ver Proyecto](./graph_theory/pj_chiapas)        |
+| 🏃 **Grafos: Flujo de Sprint (Scrum)**    | Modelado de un flujo de trabajo ágil (Grafo Dirigido) para el desarrollo de una API, calculando grados de entrada/salida.         | [Ver Proyecto](./graph_theory/pj_sprint)         |
+| 🛤️ **Grafos: Rutas del Festival (Euler)** | Análisis de un grafo (recorrido Euleriano) para optimizar rutas de patrullaje en un festival, basado en el "Festival del Viento". | [Ver Proyecto](./graph_theory/pj_rutas_festival) |
+| _(Próximos proyectos...)_                 | _(...)_                                                                                                                           | _(...)_                                          |
 
 ---
 
