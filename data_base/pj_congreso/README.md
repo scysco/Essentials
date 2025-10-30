@@ -4,7 +4,7 @@ Este proyecto consiste en el diseño de un **Modelo Entidad-Relación (E-R)** pa
 
 El modelo se ha diseñado utilizando la **Notación de Peter Chen**.
 
-[![Open in draw.io](https://img.shields.io/badge/Ver%20y%20Editar%20en-draw.io-F08705?style=for-the-badge&logo=drawdotio&logoColor=white)](https://app.diagrams.net/?url=https://github.com/scysco/Essentials/blob/main/data_base/pj_congreso/DBDD_U2_A2_FRSM.drawio)
+[![Open in draw.io](https://img.shields.io/badge/Ver%20y%20Editar%20en-draw.io-F08705?style=for-the-badge&logo=drawdotio&logoColor=white)](https://app.diagrams.net/#Uhttps://raw.githubusercontent.com/scysco/Essentials/main/data_base/pj_congreso/DBDD_U2_A2_FRSM.drawio)
 
 ---
 
