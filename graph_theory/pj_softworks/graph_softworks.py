@@ -40,18 +40,20 @@ def generar_organigrama():
         'UI': (-7, 1), 'QA': (-5, 1), 'API': (-3, 1), 'DB': (-1, 1)
     }
 
+    TAMANO_NODO = 1500
+
     plt.figure(figsize=(10, 7))
 
     # Dibujar nodos
-    #nx.draw_networkx_nodes(G, pos, node_size=2200, node_color='#87CEEB', edgecolors='black')
+    nx.draw_networkx_nodes(G, pos, node_size=2200, node_color='#87CEEB', edgecolors='black')
 
     # Dibujar etiquetas
-    #nx.draw_networkx_labels(G, pos, font_size=9, font_weight='bold')
+    nx.draw_networkx_labels(G, pos, font_size=9, font_weight='bold')
 
-    # Dibujar aristas CON FLECHAS visibles (no me funciono) TODO
-    #nx.draw_networkx_edges(G, pos, arrows=True, arrowsize=20, edge_color='gray', width=2)
+    # Dibujar aristas CON FLECHAS visibles (fixed)
+    nx.draw_networkx_edges(G, pos, node_size=TAMANO_NODO, arrows=True, arrowsize=25, edge_color='gray', width=2)
     
-    nx.draw(G, pos, with_labels=True, node_size=3000, node_color='lightblue', font_size=9, font_weight='bold', arrows=True, arrowsize=20)
+    #nx.draw(G, pos, with_labels=True, node_size=3000, node_color='lightblue', font_size=9, font_weight='bold', arrows=True, arrowsize=20)
 
     guardar_imagen("Estructura Jerárquica SoftWorks S.A.", "1_organigrama.png")
 
