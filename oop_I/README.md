@@ -1,0 +1,35 @@
+# 📚 Proyectos de Programación Orientada a Objetos
+
+![Estado del Repositorio](https://img.shields.io/badge/Estado-Completado-brightgreen.svg)
+
+¡Bienvenido a mi repositorio de proyectos! 💻
+
+Este espacio está dedicado a documentar mi progreso y los trabajos realizados durante la asignatura de **Programación Orientada a Objetos I**, como parte de mi formación en la **Ingeniería en Desarrollo de Software**.
+
+🚧 **Atención:** Este es un repositorio activo y en constante construcción. A lo largo del curso, iré añadiendo nuevos proyectos que demuestran la aplicación de los conceptos fundamentales de la POO.
+
+## 📂 Estructura del Repositorio
+
+Cada carpeta en este repositorio corresponde a una unidad o a una evidencia de aprendizaje específica. La nomenclatura de las carpetas sigue un formato claro para facilitar la navegación, y cada una contiene:
+
+- El código fuente del proyecto.
+- Sus propias instrucciones de compilación y ejecución en un `README.md` interno.
+- Los archivos de configuración necesarios (como `build.gradle`).
+
+## 🚀 Proyectos
+
+| #   | Nombre del Proyecto                   | Descripción Breve                                                           | Tecnologías  |
+| --- | ------------------------------------- | --------------------------------------------------------------------------- | ------------ |
+| 01  | **Calculadora de Impuestos (U1 EA)**  | Una aplicación de consola que calcula el impuesto especial para refrescos.  | Java, Gradle |
+| 02  | **Registro para Robótica (U2 A2)**    | Sistema de inscripción para un concurso que asigna categorías por edad.     | Java, Gradle |
+| 03  | **Control Gusano Barrenador (U2 EA)** | App con menú interactivo para el monitoreo y reporte de una plaga ganadera. | Java, Gradle |
+| 04  | **Gestión de Flota (U3 A2)**          | App que aplica Herencia y Polimorfismo para gestionar una flota vehicular.  | Java, Gradle |
+| 05  | **Agencia de Viajes (U3 A3)**         | App que usa `try-catch` e Interfaces para un sistema de reservas de viajes. | Java, Gradle |
+| 06  | **Sistema Petrover (U3 EA)**          | App de monitoreo que usa Clases Abstractas y Polimorfismo.                  | Java, Gradle |
+| 07  | **Gestión de Inventario (U4 A1)**     | App de inventario que usa arreglos paralelos y ciclos `for`.                | Java, Gradle |
+| 08  | **Dashboard Académico (U4 EA)**       | App de calificaciones que usa arreglos multidimensionales (matrices).       | Java, Gradle |
+| 09  | **Simulador Mundial (U4 AC)**         | App que integra POO, arreglos y aleatoriedad para simular un torneo.        | Java, Gradle |
+
+---
+
+_Desarrollado por Jesus Sanchez - 2025_

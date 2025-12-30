@@ -1,0 +1,91 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.1">
+  <diagram name="Página-1" id="Rmi1GExEPkzyA0rnwNpC">
+    <mxGraphModel grid="0" page="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7lWVTH_KxhD9k0wwr6Kj-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;entryX=0.875;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.16;exitY=0.55;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="7lWVTH_KxhD9k0wwr6Kj-1" target="7lWVTH_KxhD9k0wwr6Kj-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7lWVTH_KxhD9k0wwr6Kj-15" value="n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" connectable="0" vertex="1" parent="7lWVTH_KxhD9k0wwr6Kj-14">
+          <mxGeometry x="0.8815" y="-3" relative="1" as="geometry">
+            <mxPoint x="20" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7lWVTH_KxhD9k0wwr6Kj-16" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" connectable="0" vertex="1" parent="7lWVTH_KxhD9k0wwr6Kj-14">
+          <mxGeometry x="-0.8916" y="3" relative="1" as="geometry">
+            <mxPoint x="-39" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7lWVTH_KxhD9k0wwr6Kj-1" value="&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot; face=&quot;Lucida Console&quot;&gt;&lt;b style=&quot;&quot;&gt;Usuario&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;------------------------&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;nombreCompleto: &lt;/b&gt;&lt;i&gt;String&amp;nbsp;&lt;/i&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;b style=&quot;font-size: 11px; font-family: &amp;quot;Lucida Console&amp;quot;; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;curp: &lt;/b&gt;&lt;i style=&quot;font-size: 11px; font-family: &amp;quot;Lucida Console&amp;quot;; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;String&amp;nbsp;&lt;/i&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 11px; font-family: &amp;quot;Lucida Console&amp;quot;;&quot;&gt;telefono: &lt;/b&gt;&lt;i style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 11px; font-family: &amp;quot;Lucida Console&amp;quot;;&quot;&gt;String&amp;nbsp;&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;b style=&quot;font-size: 11px; font-family: &amp;quot;Lucida Console&amp;quot;; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;correo: &lt;/b&gt;&lt;i style=&quot;font-size: 11px; font-family: &amp;quot;Lucida Console&amp;quot;; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;String&amp;nbsp;&lt;/i&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;------------------------&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;&lt;i&gt;solicitarEvento()&amp;nbsp;&lt;/i&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;i style=&quot;font-family: &amp;quot;Lucida Console&amp;quot;; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;realizarPago()&amp;nbsp;&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;i style=&quot;font-family: &amp;quot;Lucida Console&amp;quot;; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;verificarConfirmacion()&lt;/i&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#EBF2FC;strokeColor=#6c8ebf;dashed=1;dashPattern=12 12;strokeWidth=3;fillStyle=hatch;" vertex="1" parent="1">
+          <mxGeometry x="648" y="11" width="300" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="7lWVTH_KxhD9k0wwr6Kj-2" value="&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Servicio&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;------------------------&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;idServicio: &lt;/b&gt;&lt;i&gt;String &lt;/i&gt;&lt;b&gt;nombre: &lt;/b&gt;&lt;i&gt;String &lt;/i&gt;&lt;b&gt;descripcion: &lt;/b&gt;&lt;i&gt;String&lt;/i&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family: &amp;quot;Lucida Console&amp;quot;; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;------------------------&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;&lt;i&gt;obtenerLugaresDisponibles()&lt;/i&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#EBF2FC;strokeColor=#6c8ebf;dashed=1;dashPattern=12 12;strokeWidth=3;fillStyle=hatch;" vertex="1" parent="1">
+          <mxGeometry x="11" y="211" width="300" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="7lWVTH_KxhD9k0wwr6Kj-3" value="&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Lugar&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;------------------------&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;idLugar: &lt;/b&gt;&lt;i&gt;String &lt;/i&gt;&lt;b&gt;nombre: &lt;/b&gt;&lt;i&gt;String&lt;/i&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;ubicacion: &lt;/b&gt;&lt;i&gt;String&amp;nbsp;&lt;/i&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;capacidadMaxima: &lt;/b&gt;&lt;i&gt;Integer&amp;nbsp;&lt;/i&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;costo: &lt;/b&gt;&lt;i&gt;Double &lt;/i&gt;&lt;b&gt;fotos: &lt;/b&gt;&lt;i&gt;List&amp;lt;String&amp;gt;&lt;/i&gt;&lt;b&gt; diasLibres: &lt;/b&gt;&lt;i&gt;List&amp;lt;Date&amp;gt;&lt;/i&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family: &amp;quot;Lucida Console&amp;quot;; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;------------------------&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;&lt;i&gt;verificarDisponibilidad()&lt;/i&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#EBF2FC;strokeColor=#6c8ebf;dashed=1;dashPattern=12 12;strokeWidth=3;fillStyle=hatch;" vertex="1" parent="1">
+          <mxGeometry x="238" y="425" width="300" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="7lWVTH_KxhD9k0wwr6Kj-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=oval;startFill=1;entryX=0.625;entryY=0.2;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="7lWVTH_KxhD9k0wwr6Kj-4" target="7lWVTH_KxhD9k0wwr6Kj-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="199" y="141" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7lWVTH_KxhD9k0wwr6Kj-9" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" connectable="0" vertex="1" parent="7lWVTH_KxhD9k0wwr6Kj-8">
+          <mxGeometry x="-0.7199" y="1" relative="1" as="geometry">
+            <mxPoint x="5" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7lWVTH_KxhD9k0wwr6Kj-10" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" connectable="0" vertex="1" parent="7lWVTH_KxhD9k0wwr6Kj-8">
+          <mxGeometry x="0.8394" relative="1" as="geometry">
+            <mxPoint x="-13" y="-21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7lWVTH_KxhD9k0wwr6Kj-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=oval;startFill=1;entryX=0.625;entryY=0.2;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.55;exitY=0.95;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="7lWVTH_KxhD9k0wwr6Kj-4" target="7lWVTH_KxhD9k0wwr6Kj-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="361" />
+              <mxPoint x="426" y="361" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7lWVTH_KxhD9k0wwr6Kj-12" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" connectable="0" vertex="1" parent="7lWVTH_KxhD9k0wwr6Kj-11">
+          <mxGeometry x="-0.8645" y="2" relative="1" as="geometry">
+            <mxPoint x="-16" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7lWVTH_KxhD9k0wwr6Kj-13" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" connectable="0" vertex="1" parent="7lWVTH_KxhD9k0wwr6Kj-11">
+          <mxGeometry x="0.88" y="1" relative="1" as="geometry">
+            <mxPoint x="-12" y="-21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7lWVTH_KxhD9k0wwr6Kj-4" value="&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;SolicitudEvento&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;------------------------&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;idSolicitud: &lt;/b&gt;&lt;i&gt;String&amp;nbsp;&lt;/i&gt;&lt;/span&gt;&lt;/font&gt;&lt;b style=&quot;font-size: 11px; font-family: &amp;quot;Lucida Console&amp;quot;; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;fecha: &lt;/b&gt;&lt;i style=&quot;font-size: 11px; font-family: &amp;quot;Lucida Console&amp;quot;; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Date&amp;nbsp;&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;cantidadPersonas: &lt;/b&gt;&lt;i&gt;Integer&amp;nbsp;&lt;/i&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;estado: &lt;/b&gt;&lt;i&gt;String&lt;/i&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family: &amp;quot;Lucida Console&amp;quot;; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;------------------------&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;&lt;i&gt;confirmar()&lt;/i&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;&lt;i&gt;cancelar()&lt;/i&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;&lt;i&gt;calcularCostoTotal()&lt;/i&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#EBF2FC;strokeColor=#6c8ebf;dashed=1;dashPattern=12 12;strokeWidth=3;fillStyle=hatch;" vertex="1" parent="1">
+          <mxGeometry x="295" y="11" width="300" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="7lWVTH_KxhD9k0wwr6Kj-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;entryX=0.8;entryY=0.8;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.4;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="7lWVTH_KxhD9k0wwr6Kj-5" target="7lWVTH_KxhD9k0wwr6Kj-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="691" y="324" />
+              <mxPoint x="535" y="324" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7lWVTH_KxhD9k0wwr6Kj-18" value="n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" connectable="0" vertex="1" parent="7lWVTH_KxhD9k0wwr6Kj-17">
+          <mxGeometry x="0.7724" y="-3" relative="1" as="geometry">
+            <mxPoint x="7" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7lWVTH_KxhD9k0wwr6Kj-19" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" connectable="0" vertex="1" parent="7lWVTH_KxhD9k0wwr6Kj-17">
+          <mxGeometry x="-0.8347" relative="1" as="geometry">
+            <mxPoint x="9" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7lWVTH_KxhD9k0wwr6Kj-5" value="&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Organizador&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;------------------------&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;rfc: &lt;/b&gt;&lt;i&gt;String &lt;/i&gt;&lt;b&gt;nombre: &lt;/b&gt;&lt;i&gt;String&amp;nbsp;&lt;/i&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;apellido: &lt;/b&gt;&lt;i&gt;String &lt;/i&gt;&lt;b&gt;direccion: &lt;/b&gt;&lt;i&gt;String&amp;nbsp;&lt;/i&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;telefono: &lt;/b&gt;&lt;i&gt;String &lt;/i&gt;&lt;b&gt;correo: &lt;/b&gt;&lt;i&gt;String&lt;/i&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family: &amp;quot;Lucida Console&amp;quot;; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;------------------------&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;&lt;i&gt;verEventosAsignados()&lt;/i&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#EBF2FC;strokeColor=#6c8ebf;dashed=1;dashPattern=12 12;strokeWidth=3;fillStyle=hatch;" vertex="1" parent="1">
+          <mxGeometry x="571" y="363" width="300" height="260" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
