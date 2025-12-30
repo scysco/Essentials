@@ -1,0 +1,158 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.0.6 Chrome/138.0.7204.100 Electron/37.2.3 Safari/537.36" version="28.0.6">
+  <diagram name="Página-1" id="YJ_CIo6jZabVWOUnj_j6">
+    <mxGraphModel dx="1325" dy="980" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1QNmAaFNhKQmeRV62wHR-1" value="&lt;b&gt;Sistema &lt;/b&gt;Plataforma Turis Tierra 360" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=280;fillColor=#bac8d3;strokeColor=#23445d;height=30;" parent="1" vertex="1">
+          <mxGeometry x="40" y="150" width="880" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="eO4otxT8quIn2-7afPdI-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1QNmAaFNhKQmeRV62wHR-1" source="1QNmAaFNhKQmeRV62wHR-12" target="eO4otxT8quIn2-7afPdI-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="130" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="10" y="40" />
+              <mxPoint x="10" y="165" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eO4otxT8quIn2-7afPdI-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1QNmAaFNhKQmeRV62wHR-1" source="1QNmAaFNhKQmeRV62wHR-12" target="eO4otxT8quIn2-7afPdI-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="10" y="40" />
+              <mxPoint x="10" y="255" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eO4otxT8quIn2-7afPdI-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1QNmAaFNhKQmeRV62wHR-1" source="1QNmAaFNhKQmeRV62wHR-12" target="eO4otxT8quIn2-7afPdI-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="10" y="40" />
+              <mxPoint x="10" y="355" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1QNmAaFNhKQmeRV62wHR-12" value="Turista" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1QNmAaFNhKQmeRV62wHR-1" vertex="1">
+          <mxGeometry x="-84" y="10" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1QNmAaFNhKQmeRV62wHR-13" value="Gestionar Perfil de Viajero" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1QNmAaFNhKQmeRV62wHR-1" vertex="1">
+          <mxGeometry x="60" y="40" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1QNmAaFNhKQmeRV62wHR-25" value="" style="endArrow=none;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1QNmAaFNhKQmeRV62wHR-1" source="1QNmAaFNhKQmeRV62wHR-12" target="1QNmAaFNhKQmeRV62wHR-13" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-39" as="sourcePoint" />
+            <mxPoint x="396" y="189" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="10" y="40" />
+              <mxPoint x="10" y="75" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eO4otxT8quIn2-7afPdI-1" value="Reservar Experiencia Ecoturística" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1QNmAaFNhKQmeRV62wHR-1" vertex="1">
+          <mxGeometry x="60" y="130" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="eO4otxT8quIn2-7afPdI-2" value="Consultar Itinerario y Preparativos" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1QNmAaFNhKQmeRV62wHR-1" vertex="1">
+          <mxGeometry x="60" y="220" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="eO4otxT8quIn2-7afPdI-3" value="Evaluar Experiencia" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1QNmAaFNhKQmeRV62wHR-1" vertex="1">
+          <mxGeometry x="60" y="320" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="eO4otxT8quIn2-7afPdI-9" value="Seleccionar Ruta y Fechas" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1QNmAaFNhKQmeRV62wHR-1" vertex="1">
+          <mxGeometry x="290" y="27.5" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="eO4otxT8quIn2-7afPdI-10" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;" parent="1QNmAaFNhKQmeRV62wHR-1" source="eO4otxT8quIn2-7afPdI-1" target="eO4otxT8quIn2-7afPdI-9" edge="1">
+          <mxGeometry x="0.5473" width="160" relative="1" as="geometry">
+            <mxPoint x="420" y="190" as="sourcePoint" />
+            <mxPoint x="580" y="190" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="210" y="130" />
+              <mxPoint x="210" y="63" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eO4otxT8quIn2-7afPdI-11" value="Realizar Pago en Línea" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1QNmAaFNhKQmeRV62wHR-1" vertex="1">
+          <mxGeometry x="290" y="240" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="eO4otxT8quIn2-7afPdI-12" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;" parent="1QNmAaFNhKQmeRV62wHR-1" source="eO4otxT8quIn2-7afPdI-1" target="eO4otxT8quIn2-7afPdI-11" edge="1">
+          <mxGeometry x="0.5673" width="160" relative="1" as="geometry">
+            <mxPoint x="202" y="159" as="sourcePoint" />
+            <mxPoint x="308" y="131" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="210" y="190" />
+              <mxPoint x="210" y="275" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eO4otxT8quIn2-7afPdI-17" value="Cancelar Proceso en Línea" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1QNmAaFNhKQmeRV62wHR-1" vertex="1">
+          <mxGeometry x="290" y="132.5" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="eO4otxT8quIn2-7afPdI-18" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;" parent="1QNmAaFNhKQmeRV62wHR-1" source="eO4otxT8quIn2-7afPdI-17" target="eO4otxT8quIn2-7afPdI-1" edge="1">
+          <mxGeometry x="0.0041" width="160" relative="1" as="geometry">
+            <mxPoint x="420" y="190" as="sourcePoint" />
+            <mxPoint x="580" y="190" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eO4otxT8quIn2-7afPdI-5" value="Confirmar Datos del Tour" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1QNmAaFNhKQmeRV62wHR-1" vertex="1">
+          <mxGeometry x="690" y="32.5" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="eO4otxT8quIn2-7afPdI-6" value="Gestionar Impacto Ambiental del Tour" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1QNmAaFNhKQmeRV62wHR-1" vertex="1">
+          <mxGeometry x="690" y="122.5" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="eO4otxT8quIn2-7afPdI-8" value="Generar Informe de Huella Ecológica" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1QNmAaFNhKQmeRV62wHR-1" vertex="1">
+          <mxGeometry x="690" y="267.5" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="eO4otxT8quIn2-7afPdI-13" value="Registrar Residuos Generados" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1QNmAaFNhKQmeRV62wHR-1" vertex="1">
+          <mxGeometry x="470" y="122.5" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="eO4otxT8quIn2-7afPdI-14" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;" parent="1QNmAaFNhKQmeRV62wHR-1" source="eO4otxT8quIn2-7afPdI-6" target="eO4otxT8quIn2-7afPdI-13" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="159" y="183.5" as="sourcePoint" />
+            <mxPoint x="251" y="191.5" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eO4otxT8quIn2-7afPdI-15" value="Activar Cálculo de Huella Ecológica" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1QNmAaFNhKQmeRV62wHR-1" vertex="1">
+          <mxGeometry x="470" y="202.5" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="eO4otxT8quIn2-7afPdI-16" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;" parent="1QNmAaFNhKQmeRV62wHR-1" source="eO4otxT8quIn2-7afPdI-6" target="eO4otxT8quIn2-7afPdI-15" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="700" y="167.5" as="sourcePoint" />
+            <mxPoint x="620" y="167.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="760" y="240" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eO4otxT8quIn2-7afPdI-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1QNmAaFNhKQmeRV62wHR-1" source="eO4otxT8quIn2-7afPdI-4" target="eO4otxT8quIn2-7afPdI-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="860" y="62.5" />
+              <mxPoint x="860" y="67.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eO4otxT8quIn2-7afPdI-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1QNmAaFNhKQmeRV62wHR-1" source="eO4otxT8quIn2-7afPdI-4" target="eO4otxT8quIn2-7afPdI-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="860" y="62.5" />
+              <mxPoint x="860" y="157.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eO4otxT8quIn2-7afPdI-4" value="Guía Local&amp;nbsp;&lt;div&gt;Certificado&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1QNmAaFNhKQmeRV62wHR-1" vertex="1">
+          <mxGeometry x="900" y="32.5" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eO4otxT8quIn2-7afPdI-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1QNmAaFNhKQmeRV62wHR-1" source="eO4otxT8quIn2-7afPdI-7" target="eO4otxT8quIn2-7afPdI-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eO4otxT8quIn2-7afPdI-7" value="Gerente" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1QNmAaFNhKQmeRV62wHR-1" vertex="1">
+          <mxGeometry x="900" y="272.5" width="30" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
