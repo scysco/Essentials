@@ -1,38 +1,89 @@
-# ✨ Essentials: Proyectos de Ingeniería de Software
+# 🎓 Computer Science & Software Engineering Essentials
 
-¡Hola! 👋 Bienvenido a mi repositorio "Essentials".
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.7%2B-blue?style=for-the-badge&logo=python&logoColor=white)
+![Gradle](https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white)
+![UML](https://img.shields.io/badge/UML-Design-ff69b4?style=for-the-badge&logo=uml&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
 
-Este repositorio es una colección curada de proyectos, ejercicios y notas desarrollados durante mi carrera de Ingeniería en Desarrollo de Software. Cada carpeta representa un concepto o una materia clave, documentando mi aprendizaje y aplicación práctica.
+## 📖 Descripción General
 
-🌱 **Este es un repositorio vivo y está en constante actualización a medida que avanzo en mis estudios.**
+Bienvenido a **Essentials**. Este repositorio es una colección integral de evidencias de aprendizaje y proyectos prácticos enfocados en los pilares de la Ingeniería de Software y las Ciencias de la Computación.
 
----
-
-## 📚 Proyectos y Actividades
-
-Aquí se enlistan los proyectos contenidos en este repositorio.
-
-| Proyecto                                   | Descripción                                                                                                                       | Enlace                                           |
-| :----------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------- |
-| 🗺️ **Grafos: Corazón de Chiapas**          | Modelado de una red de distribución logística (Grafo No Dirigido) para una cooperativa en Chiapas, usando NetworkX y Matplotlib.  | [Ver Proyecto](./graph_theory/pj_chiapas)        |
-| 🏢 **Grafos: Red SoftWorks (MST)**         | Optimización de costos de cableado para una red de servidores (MST/Kruskal) y modelado de estructura organizacional.              | [Ver Proyecto](./graph_theory/pj_softworks)      |
-| 🚑 **Grafos: Red Villabonita (Dijkstra)**  | Cálculo de rutas de emergencia más rápidas en una ciudad inundada usando Grafos Dirigidos y el algoritmo de Dijkstra.             | [Ver Proyecto](./graph_theory/pj_villabonita)    |
-| 📱 **Grafos: App Móvil (CPM)**             | Planificación de proyecto de software mediante el Método de la Ruta Crítica (CPM) para identificar tareas clave y duración total. | [Ver Proyecto](./graph_theory/pj_app_tareas)     |
-| 🏠 **Grafos: SmartHome (CPM)**             | Gestión de cronograma para la integración de un sistema domótico IoT, identificando la ruta crítica y holguras.                   | [Ver Proyecto](./graph_theory/pj_smart_home)     |
-| 🏃 **Grafos: Flujo de Sprint (Scrum)**     | Modelado de un flujo de trabajo ágil (Grafo Dirigido) para el desarrollo de una API, calculando grados de entrada/salida.         | [Ver Proyecto](./graph_theory/pj_sprint)         |
-| 🛤️ **Grafos: Rutas del Festival (Euler)**  | Análisis de un grafo (recorrido Euleriano) para optimizar rutas de patrullaje en un festival, basado en el "Festival del Viento". | [Ver Proyecto](./graph_theory/pj_rutas_festival) |
-| 🗃️ **BD: Contrataciones Congreso**         | Modelado Entidad-Relación (Notación Chen) para un sistema de gestión de contrataciones de servicios profesionales.                | [Ver Proyecto](./data_base/pj_congreso)          |
-| 🗃️ **BD: Gestión de Proyectos (TECNORES)** | Modelo E-R (Notación Chen) para un sistema de seguimiento de proyectos de consultoría TI.                                         | [Ver Proyecto](./data_base/pj_tecnores)          |
-| _(Próximos proyectos...)_                  | _(...)_                                                                                                                           | _(...)_                                          |
+El contenido abarca desde la **implementación de algoritmos complejos** (Teoría de Grafos) y **Programación Orientada a Objetos** avanzada, hasta el **Diseño de Sistemas** (UML, BPMN) y metodologías de desarrollo.
 
 ---
 
-## 🛠️ Tecnologías Principales
+## 🧠 Áreas de Conocimiento
 
-Las herramientas y lenguajes más comunes que encontrarás aquí:
+### 1. 🕸️ Teoría de Grafos y Algoritmos (Python)
+Implementación de soluciones matemáticas aplicadas a problemas de optimización, rutas y redes.
+* **Algoritmos:** Dijkstra, Prim, Kruskal, Caminos Críticos.
+* **Herramientas:** Python, NetworkX, Matplotlib.
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
-![Draw.io](https://img.shields.io/badge/draw.io-F08705?style=for-the-badge&logo=drawdotio&logoColor=white)
-![Neovim](https://img.shields.io/badge/NeoVim-57A143?style=for-the-badge&logo=neovim&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+| Proyecto | Aplicación Real | Algoritmo Clave |
+| :--- | :--- | :--- |
+| **🏠 Smart Home** | Optimización de cableado y sensores en domótica. | Grafos ponderados |
+| **🚚 Softworks Net** | Diseño de red empresarial eficiente. | Árbol de expansión mínima (Prim/Kruskal) |
+| **📍 Villa Bonita** | Sistema de navegación y rutas cortas. | Dijkstra |
+| **🗺️ Chiapas & Festival** | Logística de transporte y turismo. | Rutas y Nodos |
+
+### 2. ☕ Programación Orientada a Objetos (Java + Gradle)
+Evolución desde conceptos básicos hasta arquitecturas robustas en Java.
+* **Stack:** Java SDK, Gradle Build Tool.
+* **Temas:** Herencia, Polimorfismo, Patrones de Diseño, Gestión de Dependencias.
+* **Proyectos Clave:**
+    * `Simulador Mundial`: Lógica compleja de interacción de objetos.
+    * `Dashboard Académico`: Gestión de datos y estructuras.
+    * `Gestión Inventario`: CRUD y manipulación de estados.
+
+### 3. 📐 Ingeniería de Software y Modelado (UML/BPMN)
+Análisis y diseño de sistemas antes de la implementación (Blueprints).
+* **Modelado de Negocios:** Diagramas BPMN para flujos de trabajo (Unit 1 & 2).
+* **Diseño OO:** Metodologías clásicas y modernas (Booch, OMT, OOSE, UML).
+* **Herramientas:** Draw.io, diagramas de clases, objetos y casos de uso.
+
+### 4. 🗄️ Bases de Datos
+Diseño de esquemas y modelado de datos relacionales.
+* **Proyectos:** `pj_congreso`, `pj_tecnores`.
+
+---
+
+## 📂 Estructura del Repositorio
+
+```text
+essentials/
+├── 📁 business_modeling/    # Diagramas UML y BPMN (Procesos de negocio)
+├── 📁 data_base/            # Diseño y modelado de Bases de Datos
+├── 📁 graph_theory/         # Algoritmos de optimización con Python
+│   ├── 🐍 pj_smart_home/
+│   ├── 🐍 pj_softworks/     # Implementación Prim/Kruskal
+│   └── 🐍 pj_villabonita/   # Implementación Dijkstra
+├── 📁 oo_design/            # Metodologías de diseño (Booch, OMT, UML)
+└── 📁 oop_basic/            # Proyectos Java con Gradle (Unidades 1-4)
+    ├── ☕ 01-09_Projects/   # De "Hola Mundo" a Sistemas Completos
+    └── 🐘 build.gradle
+
+```
+
+---
+
+## 🛠️ Tecnologías Utilizadas
+
+* **Lenguajes:** Java (Core), Python (Scripting & Analysis).
+* **Build Tools:** Gradle (Automatización de tareas).
+* **Modelado:** Draw.io files (`.drawio`), PNG exports.
+* **Entornos:** IntelliJ IDEA, Jupyter Notebooks.
+
+---
+
+## 📬 Contacto
+
+Si te interesa discutir sobre algoritmos de optimización, arquitectura de software o cualquiera de estos proyectos:
+
+* **LinkedIn:** [Jesus Sanchez](https://www.linkedin.com/in/scysco/)
+* **Email:** [scysco@gmail.com](mailto:scysco@gmail.com)
+
+---
+
+*Este repositorio documenta mi formación técnica en fundamentos de CS e Ingeniería de Software.*
