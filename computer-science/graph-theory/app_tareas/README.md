@@ -68,7 +68,7 @@ _(Los nodos en rojo representan las actividades críticas que no pueden retrasar
 4. **Ejecutar el script:**
 
    ```bash
-   python graph_app_tareas.py
+   python src/graph_app_tareas.py
    ```
 
    Esto generará las imágenes `diagrama_base.png` y `diagrama_critico.png` en la misma carpeta.
