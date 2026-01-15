@@ -2,7 +2,7 @@
 
 Este proyecto modela el flujo de trabajo de un sprint de desarrollo ágil (Scrum) como un **Grafo Dirigido (DiGraph)**, basado en un caso de estudio de la materia Matemáticas Discretas.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/scysco/Essentials/blob/main/graph_theory/pj_sprint/pj_sprint.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/scysco/Essentials/blob/main/computer-science/graph-theory/sprint/src/sprint.ipynb)
 
 ---
 
@@ -43,12 +43,12 @@ El script genera dos visualizaciones para comparar el flujo de trabajo.
 
 ### Grafo del Flujo Original
 
-![Grafo del Flujo de Sprint Original](./grafo_sprint_original.png)
+![Grafo del Flujo de Sprint Original](./assets/grafo_sprint_original.png)
 
 ### Grafo del Flujo Modificado
 
 _(Con el nodo "M" (Monitoreo) y la arista R -> P)_
-![Grafo del Flujo de Sprint Modificado](./grafo_sprint_modificado.png)
+![Grafo del Flujo de Sprint Modificado](./assets/grafo_sprint_modificado.png)
 
 ---
 
@@ -66,34 +66,34 @@ _(Con el nodo "M" (Monitoreo) y la arista R -> P)_
 
 2. **Crear un entorno virtual:**
 
-    ```bash
-    virtualenv .venv
-    ```
+   ```bash
+   virtualenv .venv
+   ```
 
 3. **Activar el entorno:**
-    _En Nushell (tu shell):_
+   _En Nushell (tu shell):_
 
-    ```nu
-    overlay use .venv/bin/activate.nu
-    ```
+   ```nu
+   overlay use .venv/bin/activate.nu
+   ```
 
-    _En Bash/Zsh:_
+   _En Bash/Zsh:_
 
-    ```bash
-    source .venv/bin/activate
-    ```
+   ```bash
+   source .venv/bin/activate
+   ```
 
 4. **Instalar dependencias:**
-    _(Este proyecto no requiere `scipy`)_
+   _(Este proyecto no requiere `scipy`)_
 
-    ```bash
-    pip install networkx matplotlib
-    ```
+   ```bash
+   pip install networkx matplotlib
+   ```
 
 5. **Ejecutar el script:**
 
-    ```bash
-    python graph_sprint.py
-    ```
+   ```bash
+   python graph_sprint.py
+   ```
 
-    Esto generará los dos archivos `.png` en la misma carpeta.
+   Esto generará los dos archivos `.png` en la misma carpeta.
