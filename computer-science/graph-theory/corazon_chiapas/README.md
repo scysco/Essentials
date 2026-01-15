@@ -2,7 +2,7 @@
 
 Este proyecto modela una red de distribución logística utilizando Teoría de Grafos, basado en un caso de estudio de la materia Matemáticas Discretas.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/scysco/Essentials/blob/main/graph_theory/pj_chiapas/pj_chiapas.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/scysco/Essentials/blob/main/computer-science/graph-theory/chiapas/chiapas.ipynb)
 
 ---
 
@@ -33,7 +33,7 @@ El layout `kamada_kawai_layout` (que requiere `SciPy`) se utiliza para organizar
 
 El script genera la siguiente visualización de la red:
 
-![Grafo de la Red "Corazón de Chiapas"](./grafo_corazon_chiapas.png)
+![Grafo de la Red "Corazón de Chiapas"](./assets/grafo_corazon_chiapas.png)
 
 ---
 
@@ -48,36 +48,38 @@ El script genera la siguiente visualización de la red:
 
 ## 🚀 Cómo Ejecutar Localmente
 
-1.  **Clonar el repositorio (o esta carpeta).**
+1. **Clonar el repositorio (o esta carpeta).**
 
-2.  **Crear un entorno virtual:**
+2. **Crear un entorno virtual:**
 
-    ```bash
-    virtualenv .venv
-    ```
+   ```bash
+   virtualenv .venv
+   ```
 
-3.  **Activar el entorno:**
-    _En Nushell:_
+3. **Activar el entorno:**
+   _En Nushell:_
 
-    ```nu
-    overlay use .venv/bin/activate.nu
-    ```
+   ```nu
+   overlay use .venv/bin/activate.nu
+   ```
 
-    _En Bash/Zsh:_
+   _En Bash/Zsh:_
 
-    ```bash
-    source .venv/bin/activate
-    ```
+   ```bash
+   source .venv/bin/activate
+   ```
 
-4.  **Instalar dependencias:**
-    El archivo `requirements.txt` contiene todas las librerías necesarias.
+4. **Instalar dependencias:**
+   El archivo `requirements.txt` contiene todas las librerías necesarias.
 
-    ```bash
-    pip install -r requirements.txt
-    ```
+   ```bash
+   pip install -r src/requirements.txt
+   ```
 
-5.  **Ejecutar el script:**
-    ```bash
-    python graph_corazon_de_chiapas.py
-    ```
-    Esto generará el archivo `grafo_corazon_chiapas.png` en la misma carpeta.
+5. **Ejecutar el script:**
+
+   ```bash
+   python src/graph_corazon_de_chiapas.py
+   ```
+
+   Esto generará el archivo `grafo_corazon_chiapas.png` en la misma carpeta.
