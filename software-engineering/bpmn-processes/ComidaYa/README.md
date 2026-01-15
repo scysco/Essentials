@@ -13,7 +13,7 @@ El objetivo es presentar un análisis completo del proceso en distintos niveles 
 
 Este diagrama de colaboración de alto nivel muestra a los participantes clave del ecosistema (`Cliente`, `Plataforma`, `Restaurante`, `Repartidor`) como "cajas negras", centrándose exclusivamente en la secuencia de interacciones o "mensajes" principales entre ellos.
 
-![Diagrama de Colaboración Macro](pools.jpg)
+![Diagrama de Colaboración Macro](./assets/pools.jpg)
 
 ---
 
@@ -21,31 +21,36 @@ Este diagrama de colaboración de alto nivel muestra a los participantes clave d
 
 El siguiente diagrama muestra el flujo de trabajo operacional completo ("as-is"), detallando cada tarea, decisión y evento dentro de cada participante. Dado el tamaño del modelo, a continuación se presentan vistas ampliadas de cada fase principal del proceso.
 
-![Vista Previa del Diagrama Completo](DMDN_U2_EA_FRSM.jpg)
+![Vista Previa del Diagrama Completo](./assets/DMDN_U2_EA_FRSM.jpg)
 
 ---
 
 ## 🔎 Vistas Detalladas por Fase
 
 #### 1. Toma y Confirmación de Pedido
-*Interacción inicial entre el Cliente y la Plataforma, desde la búsqueda hasta que el pedido es formalmente aceptado.*
-![Fase 1: Pedido del Cliente](1.jpg)
+
+_Interacción inicial entre el Cliente y la Plataforma, desde la búsqueda hasta que el pedido es formalmente aceptado._
+![Fase 1: Pedido del Cliente](./assets/1.jpg)
 
 #### 2. Preparación en Restaurante
-*Flujo que se activa cuando la Plataforma notifica al Restaurante, y termina cuando el pedido está listo para ser recogido.*
-![Fase 2: Preparación en Restaurante](2.jpg)
+
+_Flujo que se activa cuando la Plataforma notifica al Restaurante, y termina cuando el pedido está listo para ser recogido._
+![Fase 2: Preparación en Restaurante](./assets/2.jpg)
 
 #### 3. Asignación y Recogida del Pedido
-*Proceso de la Plataforma para asignar un repartidor y la subsecuente coordinación entre el Repartidor y el Restaurante para la recogida física del pedido.*
-![Fase 3: Asignación y Recogida](3.jpg)
+
+_Proceso de la Plataforma para asignar un repartidor y la subsecuente coordinación entre el Repartidor y el Restaurante para la recogida física del pedido._
+![Fase 3: Asignación y Recogida](./assets/3.jpg)
 
 #### 4. Ejecución de la Entrega
-*Flujo que abarca el viaje del Repartidor, las notificaciones de seguimiento a la Plataforma y las interacciones opcionales del Cliente (rastreo y comunicación).*
-![Fase 4: Ejecución de la Entrega](4.jpg)
+
+_Flujo que abarca el viaje del Repartidor, las notificaciones de seguimiento a la Plataforma y las interacciones opcionales del Cliente (rastreo y comunicación)._
+![Fase 4: Ejecución de la Entrega](./assets/4.jpg)
 
 #### 5. Cierre y Retroalimentación
-*Fase final que incluye la entrega al cliente, la notificación de finalización y el proceso opcional de calificación y propina.*
-![Fase 5: Cierre y Feedback](5.jpg)
+
+_Fase final que incluye la entrega al cliente, la notificación de finalización y el proceso opcional de calificación y propina._
+![Fase 5: Cierre y Feedback](./assets/5.jpg)
 
 ---
 
@@ -56,24 +61,26 @@ El diagrama completo se encuentra en el archivo: `DMDN_U2_EA_FRSM.drawio`.
 Para visualizar y editar el diagrama, puedes utilizar uno de los siguientes métodos:
 
 #### 🌐 **Método 1: Editor Web (Recomendado)**
-1.  **Descarga** el archivo `DMDN_U2_EA_FRSM.drawio`.
-2.  Abre la página oficial del editor: **[app.diagrams.net](https://app.diagrams.net/)**.
-3.  **Arrastra y suelta** el archivo descargado sobre la ventana del editor.
+
+1. **Descarga** el archivo `DMDN_U2_EA_FRSM.drawio`.
+2. Abre la página oficial del editor: **[app.diagrams.net](https://app.diagrams.net/)**.
+3. **Arrastra y suelta** el archivo descargado sobre la ventana del editor.
 
 #### 🖥️ **Método 2: Aplicación de Escritorio**
-1.  Asegúrate de tener instalada la aplicación de escritorio de **draw.io**.
-2.  **Descarga** el archivo `DMDN_U2_EA_FRSM.drawio`.
-3.  Abre el archivo con la aplicación.
+
+1. Asegúrate de tener instalada la aplicación de escritorio de **draw.io**.
+2. **Descarga** el archivo `DMDN_U2_EA_FRSM.drawio`.
+3. Abre el archivo con la aplicación.
 
 ---
 
 ## 🛠️ Herramientas Utilizadas
 
-* **Lenguaje de Modelado:** BPMN 2.0
-* **Software de Diagramación:** draw.io (diagrams.net)
+- **Lenguaje de Modelado:** BPMN 2.0
+- **Software de Diagramación:** draw.io (diagrams.net)
 
 ---
 
 ## 👨‍💻 Autor
 
-* Francisco Jesús Sánchez Manuel
+- Francisco Jesús Sánchez Manuel
