@@ -3,7 +3,7 @@
 ![Notation](https://img.shields.io/badge/Notation-BPMN%202.0-blue)
 ![Tool](https://img.shields.io/badge/Tool-draw.io-orange)
 
-[![Open in draw.io](https://img.shields.io/badge/Ver%20y%20Editar%20en-draw.io-F08705?style=for-the-badge&logo=drawdotio&logoColor=white)](https://app.diagrams.net/#Uhttps://raw.githubusercontent.com/scysco/Essentials/main/software-engineering/bpmn-process/ComidaYa/src/DMDN_U2_EA_FRSM.drawio)
+[![Open in draw.io](https://img.shields.io/badge/Ver%20y%20Editar%20en-draw.io-F08705?style=for-the-badge&logo=drawdotio&logoColor=white)](https://app.diagrams.net/#Uhttps://raw.githubusercontent.com/scysco/Essentials/main/software-engineering/bpmn-processes/ComidaYa/src/DMDN_U2_EA_FRSM.drawio)
 
 Este repositorio contiene el modelado de procesos de negocio para el flujo de **"Entrega de Pedidos a Domicilio"** de la plataforma ficticia "ComidaYa". El trabajo fue desarrollado como la Evidencia de Aprendizaje de la Unidad 2 para la asignatura de **Modelado de Negocios**.
 
