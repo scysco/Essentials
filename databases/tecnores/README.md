@@ -4,7 +4,7 @@ Este proyecto consiste en el diseño de un **Modelo Entidad-Relación (E-R)** pa
 
 El modelo se ha diseñado utilizando la **Notación de Peter Chen**.
 
-[![Open in draw.io](https://img.shields.io/badge/Ver%20y%20Editar%20en-draw.io-F08705?style=for-the-badge&logo=drawdotio&logoColor=white)](https://app.diagrams.net/#Uhttps://raw.githubusercontent.com/scysco/Essentials/main/data_base/pj_tecnores/DBDD_U2_EA_FRSM.drawio)
+[![Open in draw.io](https://img.shields.io/badge/Ver%20y%20Editar%20en-draw.io-F08705?style=for-the-badge&logo=drawdotio&logoColor=white)](https://app.diagrams.net/#Uhttps://raw.githubusercontent.com/scysco/Essentials/main/databases/tecnores/src/DBDD_U2_EA_FRSM.drawio)
 
 ---
 
@@ -25,7 +25,7 @@ Se requiere implementar una base de datos para llevar un control eficiente de lo
 
 El siguiente diagrama modela las entidades, sus atributos y las relaciones de cardinalidad entre ellas para satisfacer los requisitos del sistema.
 
-![Modelo Entidad-Relación de TECNORES](./DBDD_U2_EA_FRSM.jpg)
+![Modelo Entidad-Relación de TECNORES](./assets/DBDD_U2_EA_FRSM.jpg)
 
 ### Entidades Identificadas
 
