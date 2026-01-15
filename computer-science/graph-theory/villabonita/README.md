@@ -2,7 +2,7 @@
 
 Este proyecto modela una red logística de emergencia para una ciudad afectada por inundaciones, utilizando **Grafos Dirigidos Ponderados** y el **Algoritmo de Dijkstra**, basado en el Caso de Estudio U3 A3 de Matemáticas Discretas.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/scysco/Essentials/blob/main/graph_theory/pj_villabonita/pj_villabonita.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/scysco/Essentials/blob/main/computer-science/graph-theory/villabonita/src/villabonita.ipynb)
 
 ---
 
@@ -22,9 +22,9 @@ El "Comité de Protección Civil Municipal" (CPCM) necesita optimizar la distrib
 
 Se utiliza Python y `NetworkX` para:
 
-1.  **Modelar la Red:** Crear un `DiGraph` (Grafo Dirigido) con los pesos (tiempos) especificados en el caso de estudio.
-2.  **Calcular Rutas Óptimas:** Aplicar el **Algoritmo de Dijkstra** para determinar el tiempo mínimo y el camino exacto desde el Centro de Acopio (A) hacia cada refugio.
-3.  **Visualización:** Generar un mapa visual de la red y resaltar las rutas críticas.
+1. **Modelar la Red:** Crear un `DiGraph` (Grafo Dirigido) con los pesos (tiempos) especificados en el caso de estudio.
+2. **Calcular Rutas Óptimas:** Aplicar el **Algoritmo de Dijkstra** para determinar el tiempo mínimo y el camino exacto desde el Centro de Acopio (A) hacia cada refugio.
+3. **Visualización:** Generar un mapa visual de la red y resaltar las rutas críticas.
 
 ## 📊 Resultado
 
@@ -32,7 +32,7 @@ El análisis genera el plan de rutas óptimo y visualizaciones como:
 
 ### Red Logística de Emergencia
 
-![Grafo Villabonita](./1_grafo_villabonita.png)
+![Grafo Villabonita](./assets/1_grafo_villabonita.png)
 
 _(El script calcula, por ejemplo, que la ruta más rápida de A a G no es directa, sino A->C->F->G con un tiempo total específico)._
 
@@ -48,15 +48,19 @@ _(El script calcula, por ejemplo, que la ruta más rápida de A a G no es direct
 
 ## 🚀 Cómo Ejecutar Localmente
 
-1.  **Clonar el repositorio.**
-2.  **Activar entorno virtual:**
+1. **Clonar el repositorio.**
+2. **Activar entorno virtual:**
+
     ```bash
     source .venv/bin/activate  # Linux/Mac
     # .venv\Scripts\activate   # Windows
     ```
-3.  **Instalar dependencias:**
+
+3. **Instalar dependencias:**
+
     ```bash
     pip install networkx matplotlib
     ```
-4.  **Ejecutar el notebook:**
+
+4. **Ejecutar el notebook:**
     Abre `pj_villabonita.ipynb` en tu editor favorito o ejecuta el script de generación si está disponible.
