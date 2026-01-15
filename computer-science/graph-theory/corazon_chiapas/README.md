@@ -2,7 +2,7 @@
 
 Este proyecto modela una red de distribución logística utilizando Teoría de Grafos, basado en un caso de estudio de la materia Matemáticas Discretas.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/scysco/Essentials/blob/main/computer-science/graph-theory/chiapas/src/chiapas.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/scysco/Essentials/blob/main/computer-science/graph-theory/corazon_chiapas/src/chiapas.ipynb)
 
 ---
 
