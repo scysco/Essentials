@@ -1,6 +1,6 @@
-#  Evidencia de Aprendizaje: Diagrama de Transición de Estados (UML) ☕
+# Evidencia de Aprendizaje: Diagrama de Transición de Estados (UML) ☕
 
-[![Abrir en Draw.io](https://img.shields.io/badge/Abrir%20en-Draw.io-blue)](https://app.diagrams.net/#Uhttps://raw.githubusercontent.com/scysco/Business_Modeling/main/Unit_4/Evidencia_de_Aprendizaje/DMDN_U4_EA_FRSM.drawio)
+[![Abrir en Draw.io](https://img.shields.io/badge/Abrir%20en-Draw.io-blue)](https://app.diagrams.net/#Uhttps://raw.githubusercontent.com/scysco/Essentials/main/software-engineering/uml-modeling/Pedidos_Express/src/DMDN_U4_EA_FRSM.drawio)
 
 ---
 
@@ -16,7 +16,7 @@ Este modelo visual sirve como una herramienta fundamental para analistas, desarr
 
 A continuación se muestra una vista previa del diagrama de estados final.
 
-![Diagrama de Estados para Pedidos Express](DMDN_U4_EA_FRSM.jpg)
+![Diagrama de Estados para Pedidos Express](./assets/DMDN_U4_EA_FRSM.jpg)
 
 ---
 
@@ -31,29 +31,34 @@ El modelo se basa en el caso de estudio "Pedidos Express", una cafetería modern
 El diagrama modela el ciclo de vida del objeto `Pedido`, desde su creación hasta su conclusión exitosa o excepcional.
 
 ### Estados Principales
+
 El modelo define los siguientes estados por los que puede transitar un pedido:
-* `Creado`
-* `Pagado`
-* `En preparación`
-* `Listo para entregar`
-* `Entregado` (Estado final de éxito)
-* `Cancelado` (Estado final de excepción)
-* `Fallido` (Estado final de excepción)
+
+- `Creado`
+- `Pagado`
+- `En preparación`
+- `Listo para entregar`
+- `Entregado` (Estado final de éxito)
+- `Cancelado` (Estado final de excepción)
+- `Fallido` (Estado final de excepción)
 
 ### Lógica de Negocio Clave
+
 Se modelaron reglas de negocio cruciales para asegurar la robustez del sistema:
-* **Doble Causa de Cancelación:** Un pedido puede ser cancelado por solicitud del cliente o por una causa interna del negocio (falta de stock).
-* **Condiciones de Guarda:** Se utiliza una condición de guarda `[hay stock]` para verificar la disponibilidad de ingredientes antes de que un pedido pagado entre en preparación, dirigiendo el flujo al estado `Cancelado` si la condición no se cumple.
+
+- **Doble Causa de Cancelación:** Un pedido puede ser cancelado por solicitud del cliente o por una causa interna del negocio (falta de stock).
+- **Condiciones de Guarda:** Se utiliza una condición de guarda `[hay stock]` para verificar la disponibilidad de ingredientes antes de que un pedido pagado entre en preparación, dirigiendo el flujo al estado `Cancelado` si la condición no se cumple.
 
 ---
 
 ## 🛠️ Herramientas Utilizadas
 
-* **Diagramación:** [Draw.io](https://app.diagrams.net/) (diagrams.net)
-* **Estándar:** UML 2.5.1 (Máquinas de Estado)
+- **Diagramación:** [Draw.io](https://app.diagrams.net/) (diagrams.net)
+- **Estándar:** UML 2.5.1 (Máquinas de Estado)
 
 ---
 
 ## 👨‍💻 Autor
 
-* **Francisco Sánchez Manuel**
+- **Francisco Sánchez Manuel**
+
