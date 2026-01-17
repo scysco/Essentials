@@ -6,7 +6,7 @@ Este directorio contiene el desarrollo de la **Actividad Complementaria** de la 
 
 ## 📊 Diagrama de Procesos de Negocio (BPMN)
 
-[![Abrir en Draw.io](https://img.shields.io/badge/Abrir%20Diagrama%20BPMN-Draw.io-blue)](https://app.diagrams.net/#Uhttps://raw.githubusercontent.com/scysco/Business_Modeling/main/software-engineering/bpmn-processes/Turis_tierra_360/src/DMDN_U4_AC_FRSM_BPMN.drawio)
+[![Abrir en Draw.io](https://img.shields.io/badge/Abrir%20Diagrama%20BPMN-Draw.io-blue)](https://app.diagrams.net/#Uhttps://raw.githubusercontent.com/scysco/Essentials/main/software-engineering/bpmn-processes/Turis_tierra_360/src/DMDN_U4_AC_FRSM_BPMN.drawio)
 Este diagrama modela el flujo de trabajo operativo completo de la gestión de una experiencia ecoturística. Utiliza un enfoque de dos pools para diferenciar la interacción del `Turista` (participante externo) del proceso interno de la organización.
 
 ### Vista Detallada del Proceso
@@ -14,11 +14,11 @@ Este diagrama modela el flujo de trabajo operativo completo de la gestión de un
 Para facilitar la visualización, el proceso se ha dividido en tres partes:
 
 1. **Inicio y Reservación:**
-    ![Parte 1 del diagrama BPMN](./assets/DMDN_U4_AC_FRSM_BPMN_1.jpg)
+   ![Parte 1 del diagrama BPMN](./assets/DMDN_U4_AC_FRSM_BPMN_1.jpg)
 2. **Ejecución del Tour:**
-    ![Parte 2 del diagrama BPMN](./assets/DMDN_U4_AC_FRSM_BPMN_2.jpg)
+   ![Parte 2 del diagrama BPMN](./assets/DMDN_U4_AC_FRSM_BPMN_2.jpg)
 3. **Cierre y Reporte:**
-    ![Parte 3 del diagrama BPMN](./assets/DMDN_U4_AC_FRSM_BPMN_3.jpg)
+   ![Parte 3 del diagrama BPMN](./assets/DMDN_U4_AC_FRSM_BPMN_3.jpg)
 
 ### Vista Completa del Proceso
 
@@ -28,16 +28,16 @@ Para facilitar la visualización, el proceso se ha dividido en tres partes:
 
 ## UML: Diagrama de Actividades
 
-[![Abrir en Draw.io](https://img.shields.io/badge/Abrir%20Diagrama%20de%20Actividades-Draw.io-blue)](https://app.diagrams.net/#Uhttps://raw.githubusercontent.com/scysco/Business_Modeling/main/software-engineering/bpmn-processes/Turis_tierra_360/src/DMDN_U4_AC_FRSM_UML.drawio)
+[![Abrir en Draw.io](https://img.shields.io/badge/Abrir%20Diagrama%20de%20Actividades-Draw.io-blue)](https://app.diagrams.net/#Uhttps://raw.githubusercontent.com/scysco/Essentials/main/software-engineering/bpmn-processes/Turis_tierra_360/src/DMDN_U4_AC_FRSM_UML.drawio)
 
 Este diagrama se enfoca en las responsabilidades y la transferencia de control entre los diferentes roles de la organización (`Turista`, `Sistema`, `Guía Local` y `Gerente`) a través de carriles (swimlanes).
 
 ### Vista Detallada del Flujo
 
 1. **Fase de Planeación y Pago:**
-    ![Parte 1 del diagrama de Actividades UML](./assets/DMDN_U4_AC_FRSM_UML_1.jpg)
+   ![Parte 1 del diagrama de Actividades UML](./assets/DMDN_U4_AC_FRSM_UML_1.jpg)
 2. **Fase de Ejecución y Cierre:**
-    ![Parte 2 del diagrama de Actividades UML](./assets/DMDN_U4_AC_FRSM_UML_2.jpg)
+   ![Parte 2 del diagrama de Actividades UML](./assets/DMDN_U4_AC_FRSM_UML_2.jpg)
 
 ### Vista Completa del Flujo
 
@@ -47,7 +47,7 @@ Este diagrama se enfoca en las responsabilidades y la transferencia de control e
 
 ## UML: Diagrama de Casos de Uso
 
-[![Abrir en Draw.io](https://img.shields.io/badge/Abrir%20Casos%20de%20Uso-Draw.io-blue)](https://app.diagrams.net/#Uhttps://raw.githubusercontent.com/scysco/Business_Modeling/main/software-engineering/bpmn-processes/Turis_tierra_360/src/DMDN_U4_AC_FRSM_UML_CU.drawio)
+[![Abrir en Draw.io](https://img.shields.io/badge/Abrir%20Casos%20de%20Uso-Draw.io-blue)](https://app.diagrams.net/#Uhttps://raw.githubusercontent.com/scysco/Essentials/main/software-engineering/bpmn-processes/Turis_tierra_360/src/DMDN_U4_AC_FRSM_UML_CU.drawio)
 
 Este modelo describe la funcionalidad que el sistema "Turis Tierra 360" ofrece a sus diferentes actores, definiendo los objetivos que cada uno puede lograr y las relaciones entre estas funcionalidades.
 
@@ -65,4 +65,3 @@ Este modelo describe la funcionalidad que el sistema "Turis Tierra 360" ofrece a
 ## 👨‍💻 Autor
 
 - **Francisco Sánchez Manuel**
-
